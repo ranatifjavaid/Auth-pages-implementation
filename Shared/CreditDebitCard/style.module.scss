@@ -1,0 +1,56 @@
+@import "../../Assets/Scss/veriables.scss";
+
+.princingCardDesign {
+  background: var(--light-black) !important;
+  text-align: center;
+  min-height: 372px;
+  cursor: $cursor-pointer;
+  &.active {
+    background: var(--primary) !important;
+    p {
+      color: $buttonText !important;
+      svg {
+        path {
+          fill: $buttonText;
+        }
+      }
+    }
+    button {
+      border: 1px solid var(--theme-white) !important;
+      color: var(--theme-white) !important;
+    }
+  }
+  button {
+    border: 1px solid var(--primary) !important;
+    color: var(--primary) !important;
+    margin-top: 20px;
+    background: transparent;
+    &:hover {
+      color: var(--theme-white) !important;
+    }
+  }
+  .cardHeading {
+    font-size: $font-20;
+    color: var(--primary);
+    font-weight: $font-weight-600;
+    margin-bottom: 30px;
+  }
+  .cardAmmount {
+    font-weight: $font-weight-800;
+    font-size: $font-36;
+    margin-bottom: 30px;
+    color: var(--light-gray);
+  }
+  .cardModuleListing {
+    font-size: $font-14;
+    color: var(--light-gray);
+    svg {
+      width: 18px;
+      margin-top: -3px;
+      margin-right: 6px;
+      path {
+        fill: var(--primary);
+      }
+    }
+  }
+}

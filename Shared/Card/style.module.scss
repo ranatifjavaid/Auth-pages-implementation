@@ -1,0 +1,12 @@
+@import "../../Assets/Scss/veriables.scss";
+
+.cardDesign {
+  background: var(--black);
+  border-radius: $border-radius-20;
+  box-shadow: var(--card-box-shadow);
+  border: none;
+  padding: 20px 30px 28px;
+  &.cardLayout {
+    opacity: var(--bg-opacity);
+  }
+}

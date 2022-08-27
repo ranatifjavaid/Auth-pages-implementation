@@ -1,0 +1,13 @@
+@import "../../Assets/Scss/veriables.scss";
+
+.modalDesign {
+  .modal-content {
+    padding: 20px;
+    background-color: var(--light-black) !important;
+    border: $border;
+    border-radius: $border-radius-10;
+    h2 {
+      margin-bottom: 30px;
+    }
+  }
+}

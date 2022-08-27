@@ -1,0 +1,62 @@
+@import "../../Assets/Scss/veriables.scss";
+
+.mediumWhite {
+  font-size: $font-16;
+  color: var(--white);
+  margin-bottom: 0;
+  line-height: 28px;
+}
+.extraSmallLight {
+  font-size: $font-12;
+  color: var(--light-gray);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.extraSmallWhite {
+  font-size: $font-12;
+  color: var(--white);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.smallLight {
+  font-size: $font-14;
+  color: var(--light-gray);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.smallWhite {
+  font-size: $font-14;
+  color: var(--white);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.smallRed {
+  font-size: $font-14;
+  color: $red;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.seaGreen {
+  font-size: $font-14;
+  color: var(--Sea-Green);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.mediumSeaGreen {
+  font-size: $font-14;
+  color: var(--light-black-message);
+  line-height: 15px;
+  margin-bottom: 0;
+}
+.mediumLight {
+  font-size: $font-16;
+  color: var(--light-gray);
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.mediumBrown {
+  font-size: $font-16;
+  color: var(--primary);
+  line-height: 22px;
+  margin-bottom: 0;
+}
